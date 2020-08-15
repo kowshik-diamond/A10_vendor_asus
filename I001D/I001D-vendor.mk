@@ -96,6 +96,44 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/lib64/libxditk_ditBSP.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxditk_ditBSP.so \
     vendor/asus/I001D/proprietary/lib64/libxditk_ditBSP_JNI.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxditk_ditBSP_JNI.so \
     vendor/asus/I001D/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libUndistort.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libUndistort.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libarcsoft_distortion_correction.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libarcsoft_object_tracking.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libarcsoft_object_tracking.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libarcsoft_panorama_burstcapture.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libarcsoft_panorama_burstcapture.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libasus_camera_object_tracking.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libasus_camera_object_tracking.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libasus_camera_panorama.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libasus_camera_panorama.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libasus_camera_selfiepano.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libasus_camera_selfiepano.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libasusundistort.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libasusundistort.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libbitmap.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libbitmap.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libmpbase.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libtensorflowlite_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libtensorflowlite_jni.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusCamera/lib/arm64/libyuv_util.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusCamera/lib/arm64/libyuv_util.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libRSSupport.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libRSSupport.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libarcsoft_beautyshot.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libarcsoft_undistort.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libarcsoft_undistort.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libblur.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libblur.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libcvface_api.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libcvface_api.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libgif.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libgif.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libgvr.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libgvr.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libjni_cvface_api.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libjni_cvface_api.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libjni_face_effect.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libjni_face_effect.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libjni_filter_show.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libjni_filter_show.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libjni_wide_angle_undistort.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libjni_wide_angle_undistort.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libmpbase.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libopencv_java3.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libopencv_java3.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libpano_video_renderer.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libpano_video_renderer.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libpanorenderer.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libpanorenderer.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/librs.blur.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/librs.blur.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/librs.convolve3x3.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/librs.convolve3x3.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/librs.grad.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/librs.grad.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/librs.grey.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/librs.grey.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/librs.saturation.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/librs.saturation.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/librs.vignette.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/librs.vignette.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/librsjni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/librsjni.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/librsjni_androidx.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/librsjni_androidx.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libtensorflow_inference.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libtensorflow_inference.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGallery/lib/arm/libtensorflowlite_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libtensorflowlite_jni.so \
+    vendor/asus/rog2/proprietary/priv-app/AsusGalleryBurst/lib/arm/libgifencoder.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGalleryBurst/lib/arm/libgifencoder.so \
     vendor/asus/I001D/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/asus/I001D/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
     vendor/asus/I001D/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
@@ -170,6 +208,9 @@ PRODUCT_PACKAGES += \
     libantradio \
     aptxals \
     WfdService \
+    AsusCamera \
+    AsusGallery \
+    AsusGalleryBurst \
     com.qualcomm.location \
     QtiTelephonyService \
     embms \
