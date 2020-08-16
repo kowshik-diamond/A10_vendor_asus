@@ -206,10 +206,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libantradio \
     aptxals \
+    AudioWizard \
+    AudioWizardView \
     WfdService \
     AsusCamera \
     AsusGallery \
     AsusGalleryBurst \
+    FileManager \
+    AsusSplendid \
     com.qualcomm.location \
     QtiTelephonyService \
     embms \
