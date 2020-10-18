@@ -164,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/product/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/asus/I001D/proprietary/product/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/asus/I001D/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
+    vendor/asus/I001D/proprietary/product/lib64/libcutils-v29.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libcutils-v29.so \
     vendor/asus/I001D/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so
 
 PRODUCT_PACKAGES += \
